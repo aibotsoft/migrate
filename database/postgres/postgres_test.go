@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/golang-migrate/migrate/v4"
+	"github.com/aibotsoft/migrate/v4"
 	"io"
 	"strconv"
 	"strings"
@@ -18,10 +18,10 @@ import (
 
 	"github.com/dhui/dktest"
 
-	"github.com/golang-migrate/migrate/v4/database"
-	dt "github.com/golang-migrate/migrate/v4/database/testing"
-	"github.com/golang-migrate/migrate/v4/dktesting"
-	_ "github.com/golang-migrate/migrate/v4/source/file"
+	"github.com/aibotsoft/migrate/v4/database"
+	dt "github.com/aibotsoft/migrate/v4/database/testing"
+	"github.com/aibotsoft/migrate/v4/dktesting"
+	_ "github.com/aibotsoft/migrate/v4/source/file"
 )
 
 const (
